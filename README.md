@@ -9,7 +9,8 @@ The language is built around these boxes.
 <li>TUse <code>OUT</code> to output a variable. </li>
 </ul>
 General syntax can be observed through the main.hrl file: <br>
-<code>SET 0 5;<br>
+<code>
+SET 0 5;<br>
 SET 1 6;<br>
 SET 2 1;<br>
 ADD 1 1;<br>
