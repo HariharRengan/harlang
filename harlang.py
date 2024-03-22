@@ -78,5 +78,5 @@ def locate(code):
     return -1
 
 if __name__ == "__main__":
-    code = open(argv[1] + ".hrl", "r").read().replace('\n', '')
+    code = open(argv[1] + ".harl", "r").read().replace('\n', '')
     main(code)
