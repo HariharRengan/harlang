@@ -1,6 +1,6 @@
 # harlang
 An interpreted programming language named harlang, whose interpreter is written in Python. <br>
-<code>py harlang.py main 4</code> or <code> harlang main 4</code> translates to interpret main.hrl with 4 "boxes".<br>
+<code>py harlang.py main 4</code> or <code> harlang main 4</code> translates to interpret main.harl with 4 "boxes".<br>
 The language is built around these boxes. 
 <ul>
 <li>The <code>SET</code> command assigns a value to a box of a certain index in the array of boxes. </li>
@@ -8,7 +8,7 @@ The language is built around these boxes.
 <li>TUsing the <code>DO</code> and <code>IF</code> commands, iteration and selection can be achieved. </li>
 <li>TUse <code>OUT</code> to output a variable. </li>
 </ul>
-General syntax can be observed through the main.hrl file: <br>
+General syntax can be observed through the main.harl file: <br>
 <code>
 SET 0 5;<br>
 SET 1 6;<br>
