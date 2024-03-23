@@ -4,9 +4,9 @@ An interpreted programming language named harlang, whose interpreter is written 
 The language is built around these boxes. 
 <ul>
 <li>The <code>SET</code> command assigns a value to a box of a certain index in the array of boxes. </li>
-<li>TUsing <code>ADD</code> and <code>SUB</code> to add and subtract boxes, enabling manipulation of their contents. </li>
-<li>TUsing the <code>DO</code> and <code>IF</code> commands, iteration and selection can be achieved. </li>
-<li>TUse <code>OUT</code> to output a variable. </li>
+<li>Using <code>ADD</code> and <code>SUB</code> to add and subtract boxes, enabling manipulation of their contents. </li>
+<li>Using the <code>DO</code> and <code>IF</code> commands, iteration and selection can be achieved. </li>
+<li>Use <code>OUT</code> to output a variable. </li>
 </ul>
 General syntax can be observed through the main.harl file: <br>
 <code>
