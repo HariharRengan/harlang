@@ -26,9 +26,9 @@ SUB 0 2;<br>
 ]</code><br>
 Translates to:<br>
 <ul>
-  <li>Set box 0 to 5</li>
-  <li>Set box 1 to 6</li>
-  <li>Set box 2 to 1</li>
+  <li>Set box 0 to the value 5; Set commands are the only commands where you can pass in a direct value</li>
+  <li>Set box 1 to the value 6</li>
+  <li>Set box 2 to the value 1</li>
   <li>Add the contents of box 1 and box 1 (12), then store that in box 1 (ADD a b -> SET a a+b) </li>
   <li>Print the contents of box 1 (12) </li>
   <li>Print the contents of box 0 (5) </li>
